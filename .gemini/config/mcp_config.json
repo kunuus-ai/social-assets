@@ -4,8 +4,7 @@
       "command": "npx",
       "args": ["-y", "metricool-mcp"],
       "env": {
-        "METRICOOL_USER_TOKEN": "${METRICOOL_USER_TOKEN}",
-        "METRICOOL_BLOG_ID": "${METRICOOL_BLOG_ID}"
+        "METRICOOL_USER_TOKEN": "${METRICOOL_USER_TOKEN}"
       }
     }
   }
