@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "metricool": {
+      "command": "npx",
+      "args": ["-y", "metricool-mcp"],
+      "env": {
+        "METRICOOL_USER_TOKEN": "your_metricool_token_here",
+        "METRICOOL_BLOG_ID": "your_blog_id_here"
+      }
+    }
+  }
+}
